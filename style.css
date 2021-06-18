@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Titillium Web', sans-serif;
+    background-attachment: fixed;
+}
+
+.login {
+    height: 100vh;
+    background: linear-gradient(120deg, #444, #444);
+    display:flex;
+    padding: 2em;
+}
+
+.login_container {
+    height: 400px;
+    width: 600px;
+    background: #444;
+    box-sizing: border-box;
+    padding: 2em;
+    border:1em;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+.login_title {
+    margin-bottom: 32px;
+    letter-spacing: 0.1em; 
+    color: white;   
+
+}
+
+.login_form {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login_input {
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border: unset;
+    outline: none;
+
+}
+
+.login_input-letter {
+    color: white;
+    padding-right: 90%;
+}
+
+.login_submit {
+    height: 50px;
+    width: 60%;
+    font-size: 16px;
+    justify-content: center;
+    margin: 1em;
+    background-color: lime;
+    border-radius: -0.1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.divisor{
+    border:solid 2px;
+    border-radius: 10px;
+    height: 90%;
+    width: 2px;
+    margin-left:100px;
+    background-color: white;
+}
+
